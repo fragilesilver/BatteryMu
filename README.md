@@ -2,7 +2,7 @@
 [![Licence: GPL-3.0 with NC Exception](https://shields.io/badge/license-GPL--3.0_--_Non--Commercial-red?logo=github)](./LICENSE)
 
 A live battery monitor for **[muOS](https://muos.dev/) Andromeda** on the
-**Anbernic RG35XX family** (all Allwinner H700 — Pro, Plus, H, SP, 2024).
+**Anbernic RG35XX family** (all Allwinner H700 - Pro, Plus, H, SP, 2024).
 Built with LÖVE2D on the shared **[fskit](#-built-on-fskit)** kit. Jacaranda-compatible.
 
 ### 🚀 Features
@@ -11,9 +11,9 @@ Built with LÖVE2D on the shared **[fskit](#-built-on-fskit)** kit. Jacaranda-co
 - Charge history graph from the muOS `battery_usage` tracker (last charged,
   time on battery, capacity at unplug)
 - Reads muOS's pre-parsed battery values first, falling back to raw AXP2202
-  sysfs — identical across every RG35XX variant
+  sysfs - identical across every RG35XX variant
 - 8-colour in-app theme picker shared with ClockMu and JarMu
-- Letterboxed 640×480 render — safe on every RG35XX panel variant, and on HDMI-out
+- Letterboxed 640×480 render - safe on every RG35XX panel variant, and on HDMI-out
 
 ### 📥 Installation
 1. Download the latest `.muxapp` from [Releases](https://github.com/fragilesilver/BatteryMu/releases).
@@ -54,7 +54,7 @@ save-dir resolution under muOS bind-storage.
 - Battery figures update once per second; the theme is saved on a 30-second cadence.
 - On a fully charged or freshly booted device the history tracker may be empty
   until the first charge/unplug cycle.
-- The launcher does not touch audio — BatteryMu is silent.
+- The launcher does not touch audio - BatteryMu is silent.
 
 ### 🎨 Themes
 
@@ -65,9 +65,9 @@ Forest Green, Funky Purple, Yoga White, Midnight Black.
 ### 🧩 Built on fskit
 
 BatteryMu, [ClockMu](https://github.com/fragilesilver/ClockMu) and
-[JarMu](https://github.com/fragilesilver/JarMu) share **fskit** — a small LÖVE2D
+[JarMu](https://github.com/fragilesilver/JarMu) share **fskit** - a small LÖVE2D
 kit providing the letterboxed 640×480 screen, the theme model and palette, fonts,
-glyphs, input abstraction and the header/footer chrome — so the three apps look,
+glyphs, input abstraction and the header/footer chrome - so the three apps look,
 feel and behave the same on every RG35XX variant.
 
 ### 🙏 Credits
@@ -86,4 +86,4 @@ See the [LICENSE](./LICENSE) file for the full legal terms.
 
 ---
 
-Part of the **fragilesilver** muOS app family — [ClockMu](https://github.com/fragilesilver/ClockMu) · [JarMu](https://github.com/fragilesilver/JarMu) · [BatteryMu](https://github.com/fragilesilver/BatteryMu).
+Part of the **fragilesilver** muOS app family - [ClockMu](https://github.com/fragilesilver/ClockMu) · [JarMu](https://github.com/fragilesilver/JarMu) · [BatteryMu](https://github.com/fragilesilver/BatteryMu).
