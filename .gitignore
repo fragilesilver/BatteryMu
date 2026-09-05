@@ -1,0 +1,12 @@
+# on-device runtime data (written by mux_launch.sh / the app)
+/save/
+/data/
+*.log
+.local/
+
+# build output
+/dist/
+
+# OS cruft
+.DS_Store
+Thumbs.db
