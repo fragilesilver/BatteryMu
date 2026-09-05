@@ -1,5 +1,5 @@
 ## BatteryMu
-[![Licence: GPL-3.0 with NC Exception](https://shields.io)](./LICENSE)
+[![Licence: GPL-3.0 with NC Exception](https://shields.io/badge/license-GPL--3.0_--_Non--Commercial-red?logo=github)](./LICENSE)
 
 A live battery monitor for **[muOS](https://muos.dev/) Andromeda** on the
 **Anbernic RG35XX family** (all Allwinner H700 — Pro, Plus, H, SP, 2024).
